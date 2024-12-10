@@ -1,0 +1,33 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-family:serif;
+    font-size: 20px;
+}
+#image {  
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background: white;
+    height: 850px;
+    width: 650px;
+}
+@media screen and (min-width: 600px) {
+    .body{
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+        padding: 15px;
+}
